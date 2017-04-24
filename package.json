@@ -1,0 +1,17 @@
+{
+  "name": "hotelfinder_chatbot",
+  "version": "1.0.0",
+  "description": "this is a test of hotel finder chatbot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yana.ponomarova",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "botbuilder": "^3.7.0",
+    "dotenv-extended": "^1.0.4",
+    "restify": "^4.3.0"
+  }
+}
