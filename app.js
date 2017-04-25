@@ -3,7 +3,7 @@ require('dotenv-extended').load();
 
 
 var builder = require('botbuilder');
-var zipcodedialog = require('./zipcodedialog');
+// var zipcodedialog = require('./zipcodedialog');
 
 var restify = require('restify');
 
@@ -25,16 +25,16 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 
 
  // Serve a static web page
-// server.get(/.*/, restify.serveStatic({
-/* 	'directory': '.',
+server.get(/.*/, restify.serveStatic({
+ 	'directory': '.',
  	'default': 'index.html'
  }));
  
- server.listen(process.env.port || 3978, function () {
-     console.log('%s listening to %s', server.name, server.url); 
- });
+ //server.listen(process.env.port || 3978, function () {
+ //    console.log('%s listening to %s', server.name, server.url); 
+ //});
 
-*/
+
 
 // Create connector and listen for messages
 
